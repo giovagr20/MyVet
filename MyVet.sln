@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVet.Common", "MyVet.Common\MyVet.Common.csproj", "{74BB9C4E-4650-4BA0-AACC-C377A23DB255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVet.Web", "MyVet.Web\MyVet.Web.csproj", "{060E4FE0-44EC-4AB7-AD68-D2E1A2815B7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyVet.Prism", "MyVet.Prism", "{DB0C3461-F660-474C-A2FB-244529314782}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyVet.Prism", "MyVet.Prism", "{ADB28AF2-1E1B-4FDB-BA56-1E058D8038CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyVet.Prism.Android", "MyVet.Prism.Android", "{1699EFD4-65C6-45DD-8206-A7C56D98082B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyVet.iOS", "MyVet.iOS", "{1756E189-AAE9-42E9-BED4-4CB78B305F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyVet.Cross.Android", "MyVet.Cross.Android", "{C3F71928-D154-4A7F-9112-B8ABA2215E14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyVet.iOS", "MyVet.iOS", "{0C57F9C2-4CF0-41DA-B0BB-C0084857F6F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74BB9C4E-4650-4BA0-AACC-C377A23DB255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BB9C4E-4650-4BA0-AACC-C377A23DB255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BB9C4E-4650-4BA0-AACC-C377A23DB255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BB9C4E-4650-4BA0-AACC-C377A23DB255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060E4FE0-44EC-4AB7-AD68-D2E1A2815B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060E4FE0-44EC-4AB7-AD68-D2E1A2815B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060E4FE0-44EC-4AB7-AD68-D2E1A2815B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060E4FE0-44EC-4AB7-AD68-D2E1A2815B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADB28AF2-1E1B-4FDB-BA56-1E058D8038CB} = {DB0C3461-F660-474C-A2FB-244529314782}
+		{1699EFD4-65C6-45DD-8206-A7C56D98082B} = {DB0C3461-F660-474C-A2FB-244529314782}
+		{1756E189-AAE9-42E9-BED4-4CB78B305F5E} = {DB0C3461-F660-474C-A2FB-244529314782}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {630591C2-AC9B-4CB2-B15B-A0585BEDF97F}
+	EndGlobalSection
+EndGlobal
